@@ -3,4 +3,16 @@ Notas de aula 2/2/2023.
 - Apresentação da disciplina
 - Config. do ambiente de desenvolvimento.
 - Aplicação com Spring Boot e Thymeleaf
-- IDE Intellij~
+- IDE Intellij~ community
+
+https://start.spring.io/ (para adicionar novas dependencias ao projeto, pesquinar e copiar o codigo em explore.)
+maven, java
+conferir versão java -version (lab. java 11, spring boot 2.7.8)
+Dependencias:
+thymeleaf
+spring web
+dev tools
+Ativar no Intellij:
+pom.xml
+File -> Settings -> Advanced Settings -> Compiler -> allow automake to start...)
+File -> Settings -> Build,Execution, Deployment -> Compiler -> Build project automatically
