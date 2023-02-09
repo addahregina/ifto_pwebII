@@ -16,3 +16,11 @@ Ativar no Intellij:
 pom.xml
 File -> Settings -> Advanced Settings -> Compiler -> allow automake to start...)
 File -> Settings -> Build,Execution, Deployment -> Compiler -> Build project automatically
+
+
+AULA 9/02
+
+https://fagno.github.io/pwebii-spring-ifto/jpa/
+https://fagno.github.io/pwebii-spring-ifto/
+
+fazer CRUD com jdbc e jpa
