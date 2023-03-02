@@ -24,3 +24,17 @@ https://fagno.github.io/pwebii-spring-ifto/jpa/
 https://fagno.github.io/pwebii-spring-ifto/
 
 fazer CRUD com jdbc e jpa
+
+AULA 2/3
+REPOSITORIO SUBSTITUI DAO
+PESSOADAO -> ProdutoRepository
+
+model.dao -> model.repository
+model.entity
+controller
+model.conexao
+
+datasource -> applications.properties
+
+jpa não precisa da classe conexão
+
