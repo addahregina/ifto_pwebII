@@ -38,3 +38,34 @@ datasource -> applications.properties
 
 jpa não precisa da classe conexão
 
+
+//aula 09/03
+class Produto{
+String descricao;
+double valor;
+}
+
+class itemVenda{
+@oneToOne
+ Produto produto;
+ double qtd;
+ 
+ /*
+ @ManyToOne
+Venda venda;
+*/
+ double total(){}
+}
+
+public class Venda{
+
+  LocalDate data;
+  @oneToMany //(mappedBy = "atributo") se for bidirecional; sempre fica do lado fraco
+  List<ItemVenda> itens;
+  
+  venda(){
+  itens = new ArrayList<>()
+  }
+  
+   double total(){}
+}
