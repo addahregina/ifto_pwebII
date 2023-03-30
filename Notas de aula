@@ -69,3 +69,8 @@ public class Venda{
   
    double total(){}
 }
+
+
+no carrinho
+&{session.vendas.itens}
+não precisa enviar o objeto para view
