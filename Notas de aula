@@ -1,3 +1,11 @@
+1 -> 1   uma delas recebe a chave estrangeira
+1 -> *   * recebe a chave estrangeira
+* -> *   cria uma terceira tabela
+
+
+
+
+
 Notas de aula 2/2/2023.
 
 - Apresentação da disciplina
