@@ -1,8 +1,22 @@
-1 -> 1   uma delas recebe a chave estrangeira
+1 -> 1   a classe de origem recebe a de destino.
+:: unidirecional: Em cima do atributo   @OneToOne  @JoinColum(name="id_classname")
+:: bidirecional: as duas classes tem o id de ambos  @OneToOne(mappedBy="classname") //define de o lado que fica a  chave estrangeira, no lado fraco
+   - o hibernate encontra todos que estão relacionados ao lado fraco
 1 -> *   * recebe a chave estrangeira
-* -> *   cria uma terceira tabela
+@OneToMany private List<ClassName> classeName(s);
+- o lado * é dominante, @ManyToOne  private ClassName classname;
+- 1 @OneToMany(mappedBy="ClassName*") 
+private List<ClassName> classeName(s);
+
+* -> *   cria uma terceira tabela 
+@ManyToMany(mappedBy="className") (lado fraco)
+@
 
 
+//não é para usar joinColumn(name="");
+
+criar os lists (na lista de pacientes, adicionar link para todas as consulas do paciente, duas views: paciente e paciente_consulta (O mesmo para médiocos.))
+adicionar dados por import .sql
 
 
 
