@@ -4,8 +4,8 @@
    - o hibernate encontra todos que estão relacionados ao lado fraco
 1 -> *   * recebe a chave estrangeira
 @OneToMany private List<ClassName> classeName(s);
-- o lado * é dominante, @ManyToOne  private ClassName classname;
-- 1 @OneToMany(mappedBy="ClassName*") 
+- o lado * é dominante, @ManyToOne  private ClassName classname;   (ex: pessoa)
+- 1 @OneToMany(mappedBy="ClassName*")   (ex: endereco)
 private List<ClassName> classeName(s);
 
 * -> *   cria uma terceira tabela 
